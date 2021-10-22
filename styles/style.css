@@ -1,0 +1,194 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+  color: #B9B9BE;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: inherit;
+  color: inherit;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.header {
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.header__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.logo__img {
+  display: inline-block;
+}
+
+.search {
+  position: relative;
+  margin-right: auto;
+  max-width: 620px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.search__input {
+  padding: 13px 50px 13px 20px;
+  width: 100%;
+  background: rgba(238, 238, 238, 0.71);
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+  line-height: 23px;
+  color: #57565B;
+}
+
+.search__input:focus {
+  outline: 2px solid #F47322;
+}
+
+.search__input:hover {
+  outline: 2px solid rgba(244, 115, 34, 0.5);
+}
+
+.search__button {
+  position: absolute;
+  right: 8px;
+  top: 4px;
+  padding: 10px;
+  margin: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.search__button-image {
+  display: inline-block;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__login {
+  margin-right: 30px;
+  padding: 17px 30px;
+  display: block;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #000;
+  background: #EBEBEB;
+  border-radius: 50px;
+}
+
+.menu__cart {
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #F47322;
+  border-radius: 50px;
+}
+
+.menu__cart-notification {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  padding: 5px;
+  font-size: 10px;
+  line-height: 11px;
+  color: #000;
+  background-color: #FFAF19;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=style.css.map */
