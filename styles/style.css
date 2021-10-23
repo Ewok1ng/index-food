@@ -95,18 +95,38 @@ a {
   border: 2px solid #F47322;
   background-color: #F47322;
   color: #FFF;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.button--primary:hover {
+  border-color: #5F5F61;
 }
 
 .button--default {
   border: 2px solid #FFF;
   background-color: #FFF;
   color: #5F5F61;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.button--default:hover {
+  border-color: #5F5F61;
 }
 
 .button--outlined {
-  border: 2px solid #F47322;
+  border: 2px solid #F37321;
   background-color: #FFF;
   color: #F47322;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+.button--outlined:hover {
+  background: #FFA871;
+  border-color: #FFA871;
+  color: #FFF;
 }
 
 .header {
@@ -376,7 +396,7 @@ a {
 }
 
 .delivery {
-  margin-bottom: 140px;
+  margin-bottom: 110px;
 }
 
 .delivery__title {
@@ -399,6 +419,16 @@ a {
   max-height: 180px;
   border-radius: 20px;
   overflow: hidden;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.delivery__card:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
 }
 
 .delivery__card-image {
@@ -461,5 +491,162 @@ a {
 .delivery__card-label--8 {
   color: #49494F;
   background-color: #FEF7FE;
+}
+
+.food {
+  padding: 40px 0 60px;
+  background-color: #F6F6F6;
+}
+
+.food__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.food__title {
+  margin-bottom: 50px;
+}
+
+.food__menu {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.food__menu-item {
+  font-size: 20px;
+  line-height: 23px;
+  color: #49494F;
+  cursor: pointer;
+}
+
+.food__menu-item + .food__menu-item {
+  margin-left: 58px;
+}
+
+.food__menu-item--active {
+  color: #F37321;
+}
+
+.food__cards {
+  margin-bottom: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.food__card {
+  max-width: 270px;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-transition: -webkit-transform .2s ease-in-out;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, -webkit-transform .2s ease-in-out;
+}
+
+.food__card + .food__card {
+  margin-left: 37px;
+}
+
+.food__card:hover {
+  -webkit-transform: translateY(-8px);
+          transform: translateY(-8px);
+}
+
+.food__card-content {
+  padding: 21px 23px;
+}
+
+.food__card-image {
+  width: 100%;
+  max-height: 190px;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center center;
+     object-position: center center;
+}
+
+.food__card-title {
+  margin-bottom: 13px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000;
+}
+
+.food__card-text {
+  margin-bottom: 36px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.food__card-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.food__card-price {
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 23px;
+  color: #4B4B51;
+}
+
+.food__card-weight {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  color: #AAAAB1;
+}
+
+.food__card-button {
+  padding: 15px 25px;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 33px;
+}
+
+.food__button {
+  padding: 14px 104px;
+  display: block;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-align: center;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 33px;
 }
 /*# sourceMappingURL=style.css.map */

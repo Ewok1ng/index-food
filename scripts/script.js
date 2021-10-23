@@ -3,6 +3,7 @@ const swiper = new Swiper('.swiper', {
 	loop: true,
 	spaceBetween: 20,
 	initialSlide: 1,
+    speed: 1000,
 
 	navigation: {
 		nextEl: '.slider__nav-button--next',
