@@ -5,8 +5,6 @@ const swiper = new Swiper('.swiper', {
 	initialSlide: 1,
 
 	navigation: {
-		// nextEl: '.swiper-button-next',
-		// prevEl: '.swiper-button-prev',
 		nextEl: '.slider__nav-button--next',
 		prevEl: '.slider__nav-button--prev'
 	}
