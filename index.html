@@ -8,6 +8,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet"> 
 		<title>Индекс.Еда</title>
+		<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 		<link rel="stylesheet" href="styles/style.min.css" />
 	</head>
 	<body>
@@ -34,6 +35,113 @@
 			</div>
 		</header>
 		
+		<main class="main">
+
+			<div class="slider">
+				<div class="container">
+					<div class="slider__inner">
+						<div class="slider__item">
+							<div class="slider__item-content">
+								<h1 class="slider__item-title">Неделя летних овощей</h1>
+								<p class="slider__item-text">Специальная овощная корзина. Новые продукты, специальные цены, скидки!</p>
+								<a class="button button--primary" href="#">Заказать со скидкой</a>
+							</div>
+						</div>
+
+						<div class="slider__nav">
+							<a class="slider__nav-button" href="#">
+								<img class="slider__nav-image slider__nav-image--left" src="./images/icons/arrow-left.svg" alt="arrow-left">
+							</a>
+							<a class="slider__nav-button" href="#">
+								<img class="slider__nav-image slider__nav-image--right" src="./images/icons/arrow-right.svg" alt="arrow-right">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="promo">
+				<div class="container">
+					<div class="promo__inner">
+						<div class="promo__card promo__card--first">
+							<div class="promo__card-top">
+								<h3 class="promo__card-title">Сладкая корзина</h3>
+								<p class="promo__card-text">Произвольный выбор десертов по Вашему желанию.</p>
+							</div>
+							<div class="promo__card-bottom">
+								<span class="promo__card-price">ОТ 1 300 ₽</span>
+								<p class="promo__card-delivery">стоимость доставки до 200 ₽</p>
+								<a class="button button--default" href="#">Собрать корзину</a>
+							</div>
+						</div>
+						<div class="promo__card promo__card--second">
+							<div class="promo__card-top">
+								<h3 class="promo__card-title">Минимум усилий</h3>
+								<p class="promo__card-text">Произвольный выбор продуктов по Вашему желанию.</p>
+							</div>
+							<div class="promo__card-bottom">
+								<span class="promo__card-price">ОТ 700 ₽</span>
+								<p class="promo__card-delivery">стоимость доставки до 200 ₽</p>
+								<a class="button button--default" href="#">Собрать корзину</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<section class="delivery">
+				<div class="container">
+					<div class="delivery__inner">
+						<h2 class="title delivery__title">Доставка готовой еды на неделю</h2>
+						<div class="delivery__cards">
+							<div class="delivery__card">
+								<img class="delivery__card-image" src="./images/delivery/1.png" alt="Delivery 1">
+								<span class="delivery__card-label delivery__card-label--1">ЗОЖ</span>
+							</div>
+							<div class="delivery__card">
+								<img class="delivery__card-image" src="./images/delivery/2.png" alt="Delivery 2">
+								<span class="delivery__card-label delivery__card-label--2">Овощное</span>
+							</div>
+							<div class="delivery__card">
+								<img class="delivery__card-image" src="./images/delivery/3.png" alt="Delivery 3">
+								<span class="delivery__card-label delivery__card-label--3">Мясное</span>
+							</div>
+							<div class="delivery__card">
+								<img class="delivery__card-image" src="./images/delivery/4.png" alt="Delivery 4">
+								<span class="delivery__card-label delivery__card-label--4">Птица</span>
+							</div>
+							<div class="delivery__card">
+								<img class="delivery__card-image" src="./images/delivery/5.png" alt="Delivery 5">
+								<span class="delivery__card-label delivery__card-label--5">Рыбное</span>
+							</div>
+							<div class="delivery__card">
+								<img class="delivery__card-image" src="./images/delivery/6.png" alt="Delivery 6">
+								<span class="delivery__card-label delivery__card-label--6">Детское</span>
+							</div>
+							<div class="delivery__card">
+								<img class="delivery__card-image" src="./images/delivery/7.png" alt="Delivery 7">
+								<span class="delivery__card-label delivery__card-label--7">Родителям</span>
+							</div>
+							<div class="delivery__card">
+								<img class="delivery__card-image" src="./images/delivery/8.png" alt="Delivery 8">
+								<span class="delivery__card-label delivery__card-label--8">Праздничное</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="categories">
+				<div class="container">
+					<div class="categories__inner">
+						<h2 class="title categories__title">Категории блюд</h2>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 		<script src="scripts/script.js"></script>
 	</body>
 </html>
