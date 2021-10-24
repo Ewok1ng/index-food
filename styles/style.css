@@ -292,18 +292,18 @@ a {
 }
 
 .slider__item--1 {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(40.45%, rgba(0, 0, 0, 0.43)), to(rgba(0, 0, 0, 0))), url("../images/slider/1.png");
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../images/slider/1.png");
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40.45%, rgba(0, 0, 0, 0.43)), to(rgba(0, 0, 0, 0))), url("../images/slider/1.jpg");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../images/slider/1.jpg");
 }
 
 .slider__item--2 {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(40.45%, rgba(0, 0, 0, 0.43)), to(rgba(0, 0, 0, 0))), url("../images/slider/2.png");
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../images/slider/2.png");
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40.45%, rgba(0, 0, 0, 0.43)), to(rgba(0, 0, 0, 0))), url("../images/slider/2.jpg");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../images/slider/2.jpg");
 }
 
 .slider__item--3 {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(40.45%, rgba(0, 0, 0, 0.43)), to(rgba(0, 0, 0, 0))), url("../images/slider/3.png");
-  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../images/slider/3.png");
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(40.45%, rgba(0, 0, 0, 0.43)), to(rgba(0, 0, 0, 0))), url("../images/slider/3.jpg");
+  background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.43) 40.45%, rgba(0, 0, 0, 0) 100%), url("../images/slider/3.jpg");
 }
 
 .slider__item-content {
@@ -378,13 +378,13 @@ a {
 }
 
 .promo__card--first {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/cards/1.png");
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/cards/1.png");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/cards/1.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/cards/1.jpg");
 }
 
 .promo__card--second {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/cards/2.png");
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/cards/2.png");
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("../images/cards/2.jpg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/cards/2.jpg");
 }
 
 .promo__card-top {
