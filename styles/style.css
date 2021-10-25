@@ -174,6 +174,7 @@ a {
 
 .logo {
   margin-right: 76px;
+  display: block;
 }
 
 .logo__img {
@@ -1037,5 +1038,250 @@ a {
 
 .product__cart-loyalty {
   color: #F37321;
+}
+
+@media (max-width: 1260px) {
+  .container {
+    max-width: 960px;
+  }
+  .logo {
+    margin-right: 40px;
+  }
+  .search {
+    margin-right: 20px;
+  }
+  .promo {
+    margin-bottom: 80px;
+  }
+  .promo__inner {
+    grid-gap: 25px;
+  }
+  .promo__card-top {
+    margin-bottom: 50px;
+  }
+  .delivery {
+    margin-bottom: 80px;
+  }
+  .delivery__cards {
+    grid-gap: 20px;
+  }
+  .food {
+    margin-bottom: 80px;
+  }
+  .food__cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    gap: 25px;
+  }
+  .food__card + .food__card {
+    margin-left: 0;
+  }
+  .food__card {
+    max-width: 100%;
+    -webkit-box-flex: 45%;
+        -ms-flex: 45%;
+            flex: 45%;
+  }
+  .benefits {
+    margin-bottom: 50px;
+  }
+  .benefits__cards {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    gap: 25px;
+  }
+  .benefits__card {
+    max-width: 100%;
+    -webkit-box-flex: 45%;
+        -ms-flex: 45%;
+            flex: 45%;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+  .slider {
+    margin-bottom: 35px;
+  }
+  .slider__item {
+    padding: 50px 60px;
+    min-height: 360px;
+  }
+  .slider__item-title {
+    margin-bottom: 10px;
+    font-size: 38px;
+    line-height: 42px;
+  }
+  .delivery__cards {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    -ms-grid-rows: (1fr)[4];
+        grid-template-rows: repeat(4, 1fr);
+    grid-gap: 25px;
+  }
+  .delivery__card {
+    max-width: 100%;
+  }
+  .title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 560px;
+  }
+  .header {
+    margin-bottom: 15px;
+  }
+  .header__inner {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .search {
+    margin-top: 10px;
+    margin-right: 0;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .menu__login {
+    margin-right: 15px;
+  }
+  .slider__item {
+    padding: 40px 30px;
+    min-height: 320px;
+  }
+  .promo__card {
+    padding: 35px 15px 25px 15px;
+  }
+  .promo__card-price {
+    font-size: 20px;
+  }
+  .footer__inner {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .footer__logo {
+    margin-right: 20px;
+  }
+  .footer__menu {
+    margin-left: 0;
+    margin-right: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .footer__menu-item + .footer__menu-item {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .footer__social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__social-item + .footer__social-item {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 576px) {
+  .container {
+    max-width: 100%;
+  }
+  .logo {
+    margin: 0;
+  }
+  .logo__img-text {
+    display: none;
+  }
+  .menu__login {
+    margin-right: 10px;
+  }
+  .slider__item {
+    padding: 30px;
+  }
+  .slider__item-title {
+    font-size: 26px;
+    line-height: 30px;
+  }
+  .slider__item-button {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: 250px;
+    width: 100%;
+    text-align: center;
+  }
+  .slider__nav-button {
+    bottom: 15px;
+  }
+  .slider__nav-button--prev {
+    left: 46px;
+  }
+  .promo__inner {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .delivery__cards {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .food {
+    margin-bottom: 40px;
+  }
+  .food__menu {
+    padding-bottom: 15px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: auto;
+  }
+  .food__menu-item + .food__menu-item {
+    margin-left: 20px;
+  }
+  .food__cards {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .food__card {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .food__button {
+    padding: 14px 0;
+    width: 100%;
+  }
+  .benefits__cards {
+    padding-bottom: 40px;
+  }
+  .benefits__card {
+    -webkit-box-flex: 100%;
+        -ms-flex: 100%;
+            flex: 100%;
+  }
+  .logo__image {
+    max-width: 120px;
+  }
+  .title {
+    text-align: center;
+    line-height: 1.2;
+  }
 }
 /*# sourceMappingURL=style.css.map */
