@@ -64,6 +64,10 @@ body {
   height: 100%;
 }
 
+body {
+  min-width: 320px;
+}
+
 ul, ol {
   list-style: none;
 }
